@@ -15,7 +15,7 @@ const kNumberText = TextStyle(
   fontSize: 45,
   fontWeight: FontWeight.bold,
 );
-int height = 170;
+int height = 180;
 
 enum Gender {
   male,
