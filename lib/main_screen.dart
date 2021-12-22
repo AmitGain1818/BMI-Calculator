@@ -124,8 +124,8 @@ class _MainScreenState extends State<MainScreen> {
                             overlayShape: RoundSliderOverlayShape(
                               overlayRadius: 32,
                             ),
-                            activeTrackColor: Colors.white,
-                            inactiveTrackColor: Colors.green,
+                            activeTrackColor: Colors.green,
+                            inactiveTrackColor: Colors.red,
                           ),
                           child: Slider(
                             value: height.toDouble(),
