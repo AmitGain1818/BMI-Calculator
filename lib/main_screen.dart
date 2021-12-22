@@ -6,8 +6,8 @@ import 'icon_content.dart';
 
 const bottomContainerHeight = 80.0;
 const bottomContainerColor = Color(0xFF7a3a1e);
-const inactiveCardColor = Color(0xFF3223);
-const activeCardColor = Color(0xFF323232);
+const inactiveCardColor = Colors.pink;
+const activeCardColor = Colors.cyan;
 const kLabelText = TextStyle(
   fontSize: 18,
 );
