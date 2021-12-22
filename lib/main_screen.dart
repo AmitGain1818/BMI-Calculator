@@ -130,7 +130,7 @@ class _MainScreenState extends State<MainScreen> {
                           child: Slider(
                             value: height.toDouble(),
                             min: 120,
-                            max: 220,
+                            max: 240,
                             onChanged: (double changeHeight) {
                               setState(() {
                                 height = changeHeight.round();
