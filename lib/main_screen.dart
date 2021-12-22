@@ -6,7 +6,7 @@ import 'icon_content.dart';
 
 const bottomContainerHeight = 80.0;
 const bottomContainerColor = Color(0xFF7a3a1e);
-const inactiveCardColor = Color(0xFF191919);
+const inactiveCardColor = Colors.green;
 const activeCardColor = Color(0xFF323232);
 
 enum Gender {
@@ -22,7 +22,7 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  Gender? selectedGender;
+  Gender selectedGender = Gender.male;
 
   @override
   Widget build(BuildContext context) {
